@@ -1,0 +1,34 @@
+<% include partials/header %>
+
+    <div class="container">
+
+        <div class="row">
+
+            <h1 style="text-align: center;"> Enter your WebEngage Credentials </h1>
+
+            <div style="width: 30%; margin : 5px auto;">
+
+                <form action="/setup1">
+
+                    <img src="http://www.cio.in/sites/default/files/common-content/xwebengage_300x225.png.pagespeed.ic.7gA-fb5C4S.png">
+
+                    <div class="form-group">
+                        <label for="licensecode"> Enter License Code: </label>
+                        <input class="form-control" id="licensecode" type="text" name="licensecode" placeholder="licensecode" required>
+
+                        <input type="hidden" name="accesstoken" value="<%=accesstoken%>" />
+                        <input type="hidden" name="code" value="<%=code%>" />
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-block">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <% include partials/footer %>

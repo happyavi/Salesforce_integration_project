@@ -1,0 +1,35 @@
+<% include partials/header %>
+
+    <div class="container">
+
+        <div class="row">
+
+            <h1 style="text-align: center;"> Welcome to WebEngage-Salesforce Integration </h1>
+
+            <div style="width: 30%;margin : 10px auto;">
+
+                <form action="/setup">
+
+                    <img src="https://login.salesforce.com/img/logo198.png">
+
+                    <div class="form-group">
+                        <label for="Identifier"> Enter Identifier Field: </label>
+                        <input class="form-control" value="Id" id="Identifier" type="text" name="Identifier" placeholder="Identifier">
+
+                        <input type="hidden" name="accesstoken" value="<%= accesstoken %>" />
+                        <input type="hidden" name="code" value="<%= code %>" />
+
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-block"> Submit! </button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <% include partials/footer %>
