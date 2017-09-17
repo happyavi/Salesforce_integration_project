@@ -1,0 +1,4 @@
+# Salesforce_integration_project
+This repository holds the code and modules to develop a mechanism that could sync data between WebEngage and Salesforce CRM in realtime so that a client's CRM data could be used for marketing purposes through WebEngage.
+This application can create a solution to integrate Salesforce CRM with WebEngage so that a client’s Salesforce data could be used for marketing purposes through Webengage. Many of their clients had lots of Leads and Contacts data in Salesforce CRM which was not being efficiently marketed. Such integration would involve real time data synchronization as a basic necessity and
+along with it capturing some basic events like Lead Conversions or Status Changes along with others which could be used inWebEngage Journey Designer for marketing purposes.
